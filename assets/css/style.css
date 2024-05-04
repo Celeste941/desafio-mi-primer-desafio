@@ -11844,20 +11844,51 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.imagen-principal {
-  width: 100%;
+.navbar-nav .nav-link {
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-.logo {
+.navbar-nav .nav-link:hover {
+  transform: scale(0.95);
+  background-color: rgba(85, 137, 137, 0.137);
+}
+
+.logos-logos {
   width: 2.5rem;
-  border: 1px solid rgb(163, 160, 160);
-  margin: 0.5rem;
-  margin: 1.4rem;
+  margin: 1.1rem;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-.img-coffe {
+.logos-logos:hover {
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-proyectos {
   width: 17rem;
   object-fit: cover;
+}
+
+.img -proyectos:hover {
+  transform: scale(1.1);
+}
+
+.hover {
+  color: inherit;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.hover:hover {
+  background-color: rgba(85, 137, 137, 0.137);
+  transform: scale(0.95);
+  width: 50%;
+}
+
+i {
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
